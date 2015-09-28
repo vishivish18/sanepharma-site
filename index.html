@@ -1,0 +1,35 @@
+<html>
+	<head>
+		<title>Sanepharma</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<link href="/css/main.css" type="text/css" rel="stylesheet" />		
+		<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>		
+		<script type="text/javascript" src="/js/logic.js"></script>		
+	</head>
+<body>
+	<div class="container">	
+	
+     <div class="row">
+     	 <div class="col-sm-3 col-md-4"></div>
+		 <div class="col-xs-3 col-md-4">
+
+
+			<form style="margin-top:60%;" ng-submit="login(username, password)">
+			<div class="page-header">
+  				<h2 style="color:green;">SANEPHARMA</h2>  			
+			</div>
+			<h3>Login</h3>
+				  <div class="form-group">				  
+				    <input type="text" name="email" ng-model="username" class="form-control" placeholder="Email">
+				  </div>
+				  <div class="form-group">				    
+				    <input type="password" name="password" ng-model="password" class="form-control"  placeholder="Password">
+				  </div>				  
+				  <button type="submit" class="btn btn-primary">Submit</button>
+			</form>
+		 </div>
+		 <div class="col-xs-6 col-md-4"></div>		
+	 </div>		
+	</div>
+</body>
+</html>
